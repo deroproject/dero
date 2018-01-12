@@ -420,15 +420,17 @@ namespace nodetool
     else
     {
 
-      full_addrs.insert("76.74.170.109:18090");
-      full_addrs.insert("85.217.170.245:18090");
-      full_addrs.insert("seeds.dero.io");
-      full_addrs.insert("seeds1.dero.io");
-      full_addrs.insert("seeds.dero.live");
-      full_addrs.insert("seeds1.dero.live");
-      full_addrs.insert("seeds.ipv6.dero.io");
-      full_addrs.insert("seeds.ipv6.dero.live");
-      full_addrs.insert("2a07:5741:0:4b1::1");
+full_addrs.insert("89.38.96.169:18090");
+full_addrs.insert("89.38.97.110:18090");
+full_addrs.insert("212.8.242.60:18090");
+full_addrs.insert("85.217.170.245:18090");
+full_addrs.insert("76.74.170.128:18090");
+full_addrs.insert("seeds.dero.io:18090");
+full_addrs.insert("seeds1.dero.io:18090");
+full_addrs.insert("seeds.dero.live:18090");
+full_addrs.insert("seeds1.dero.live:18090");
+full_addrs.insert("seeds.ipv6.dero.io:18090");
+full_addrs.insert("seeds.ipv6.dero.live:18090");
 
 
       /*

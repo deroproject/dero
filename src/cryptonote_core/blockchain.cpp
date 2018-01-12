@@ -3527,7 +3527,7 @@ void Blockchain::check_against_checkpoints(const checkpoints& points, bool enfor
       }
       else
       {
-        LOG_ERROR("WARNING: local blockchain failed to pass a MoneroPulse checkpoint, and you could be on a fork. You should either sync up from scratch, OR download a fresh blockchain bootstrap, OR enable checkpoint enforcing with the --enforce-dns-checkpointing command-line option");
+        LOG_ERROR("WARNING: local blockchain failed to pass a DERO-Pulse checkpoint, and you could be on a fork. You should either sync up from scratch, OR download a fresh blockchain bootstrap, OR enable checkpoint enforcing with the --enforce-dns-checkpointing command-line option");
       }
     }
   }
@@ -4151,10 +4151,10 @@ void Blockchain::cancel()
 }
 
 #if defined(PER_BLOCK_CHECKPOINT)
-static const char expected_block_hashes_hash[] =  "d3ca80d50661684cde0e715d46d7c19704d2e216b21ed088af9fd4ef37ed4d65";
+static const char expected_block_hashes_hash[] =  "18334e53bf2ba5c4f6427de90882cbe382999d19a62500fd386ac7dadf1101c7";
 void Blockchain::load_compiled_in_block_hashes()
 {
-  return ;  // this is currently disabled and probably figure out a way, without bloating binaries
+//  return ;  // this is currently disabled and probably figure out a way, without bloating binaries
 
   if (m_fast_sync && get_blocks_dat_start(m_testnet) != nullptr && get_blocks_dat_size(m_testnet) > 0)
   {
