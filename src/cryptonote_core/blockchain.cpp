@@ -4151,7 +4151,7 @@ void Blockchain::cancel()
 }
 
 #if defined(PER_BLOCK_CHECKPOINT)
-static const char expected_block_hashes_hash[] =  "18334e53bf2ba5c4f6427de90882cbe382999d19a62500fd386ac7dadf1101c7";
+static const char expected_block_hashes_hash[] =  "e24034b297ba628749fba18c2bb9af20817339e6e45104832df14a11aca3cd57";
 void Blockchain::load_compiled_in_block_hashes()
 {
 //  return ;  // this is currently disabled and probably figure out a way, without bloating binaries
