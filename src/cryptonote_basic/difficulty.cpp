@@ -1,5 +1,18 @@
-// Copyright (c) 2014-2017, The Monero Project
-//
+// Portions Copyright (c) 2012-2013, The Cryptonote developers
+// Portions Copyright (c) 2014-2017, The Monero Project
+// Portions Copyright (c) 2017, The Masari Project
+// Portions Copyright (c) 2017-2018, The Dero Project
+
+// DERO uses modified difficuly algorithm based on following references.
+// Many other references, wikis, research papers were studied in planning DERO difficulty algorithm. 
+// Contact us to add any missing references and copyrights. 
+
+// References on difficulty algorithhms below:
+// https://github.com/zawy12/difficulty-algorithms/issues/17
+// https://zawy1.blogspot.in/2017/11/best-difficulty-algorithms.html
+// https://github.com/monero-project/monero/pull/2887
+// https://github.com/zawy12/difficulty-algorithms/issues/1
+
 // All rights reserved.
 //
 // Redistribution and use in source and binary forms, with or without modification, are
