@@ -12,6 +12,7 @@ Portions Copyright (c) 2012-2013, The Cryptonote developers
 - GitHub: [https://github.com/deroproject/dero](https://github.com/deroproject/dero)
 
 ## Build
+Download latest pre-compiled binaries from http://seeds.dero.io/alpha/ , We are migrating to New DERO Blockchain. You are free to this repo or alpha release till this message appears here. Both are compatible till date.
 
 | Operating System      | Processor | Status |
 | --------------------- | -------- |--------|
