@@ -1,5 +1,8 @@
-# Dero
+# This is outdated repo. Not supported. Check latest http://seeds.dero.io/alpha/
+# DERO has written and migrated to its own blockchain in Golang.
+# Download latest pre-compiled binaries from http://seeds.dero.io/alpha/ 
 
+# Dero
 Copyright (c) 2017-2018, The Dero Project
 
 Portions Copyright (c) 2014-2017, The Monero Project
